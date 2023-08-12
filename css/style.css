@@ -130,6 +130,11 @@ body {
   width: 100%;
 }
 
+.pages:hover, 
+.pages:focus{
+  color: var(--iriscolor);
+}
+
 .current-page::after {
   content: "";
   background-color: var(--oceancolor);
@@ -311,6 +316,7 @@ body {
   top: 0;
   height: 100%;
   width: 100%;
+  margin: 0;
   padding: 40px 32px;
   background-color: var(--iriscolor);
   color: var(--cloudcolor);
@@ -524,7 +530,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--lightslate),
+  color: var(--lightslate);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
   border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -589,6 +595,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: var(--iriscolor);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  
 }
 
